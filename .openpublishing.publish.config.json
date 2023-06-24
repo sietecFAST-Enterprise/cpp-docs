@@ -1,7 +1,6 @@
 {
   "build_entry_point": "docs",
-  "docsets_to_publish": [
-    {
+  "docsets_to_publish": [ {
       "docset_name": "vcppdocs",
       "build_source_folder": "docs",
       "build_output_subfolder": "vcppdocs",
@@ -33,20 +32,17 @@
   "need_preview_pull_request": true,
   "enable_incremental_build": true,
   "contribution_branch_mappings": null,
-  "dependent_repositories": [
-    {
+  "dependent_repositories": [ {
       "path_to_root": "_themes",
       "url": "https://github.com/Microsoft/templates.docs.msft",
       "branch": "main",
       "branch_mapping": {}
-    },
-    {
+    }, {
       "path_to_root": "_themes.pdf",
       "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
       "branch": "main",
       "branch_mapping": {}
-    }
-  ],
+    } ],
   "branch_target_mapping": {
     "live": [
       "Publish",
